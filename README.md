@@ -8,10 +8,10 @@
 
 <h2>Themes</h2>
 
-<h3>Blue Theme</h3>
-
 <details>
-<summary><b><code>Rounded Theme</code></b></summary>
+<summary><b><code>Rounded Theme Screen Shot</code></b></summary>
+
+<h3>Blue Theme</h3>
 
 <img src="screenshot/Rounded-Blue.png" alt="Blue Theme">
 
