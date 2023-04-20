@@ -10,6 +10,9 @@
 
 <h3>Blue Theme</h3>
 
+<details>
+<summary><b><code>Rounded Theme</code></b></summary>
+
 <img src="screenshot/Rounded-Blue.png" alt="Blue Theme">
 
 <h3>Pink Theme</h3>
@@ -23,6 +26,8 @@
 <h3>Violet Theme</h3>
 
 <img src="screenshot/Rounded-Violet.png" alt="Violet Theme">
+
+</details>
 
 <h2>Installation</h2>
 
