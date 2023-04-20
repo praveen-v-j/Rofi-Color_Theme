@@ -1,0 +1,135 @@
+/**
+ * ROFI Color theme
+ * User: praveen3164
+ * Copyright: Praveen
+ */
+
+* {
+    bg1: #8e7dbe;
+    bg2: #b288c0;
+    tt: #e4b7e5;
+    tt2: #fff;
+    hv: #b288c0;
+    hv2: #e4c1f9;
+
+    background-color: @bg1;
+    dark: @bg1;
+    border: 0px;
+}
+
+configuration {
+}   
+
+window {
+    width: 580;
+    location: center;
+    anchor:   center;
+//    padding: 10px;
+    spacing: 0;
+    children:  [mainbox];
+    orientation: horizontal;
+}
+
+mainbox {
+    children: [ inputbar, message, listview ];
+}
+
+message {
+    padding: 5px;
+}
+
+inputbar {
+    color:  @tt2;
+    font-weight: 400;
+    padding: 11px;
+    border: 0px 0px 2px 0px;
+    border-color: @hv;
+    font: "Source Code Pro 18";
+}
+
+entry,prompt,case-indicator {
+    text-font: inherit;
+    text-color:inherit;
+}
+
+prompt {
+    margin: 0px 0.3em 0em 0em ;
+}
+
+listview {
+    lines: 8;
+}
+
+entry {
+    placeholder: "";
+    cursor: text;
+}
+
+element {
+    padding: 6px;
+    vertical-align: 0.5;
+    color: @tt;
+    font:inherit;
+    format: bold;
+}
+
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
+element selected.normal {
+    color: @hv2;
+    background-color: @bg2;
+}
+element normal active {
+    foreground: @bg2;
+}
+element normal urgent {
+    foreground:@tt2;
+}
+element alternate normal {
+}
+element alternate active {
+    foreground: @bg2;
+}
+element alternate urgent {
+    foreground: @tt2;
+}
+element selected active {
+    background-color: @bg2;
+    foreground: @bg1;
+}
+element selected urgent {
+    background-color: @tt2;
+    foreground: @bg1;
+}
+element normal normal {
+
+}
+vertb {
+    expand: false;
+    children: [ dummy0, mode-switcher, dummy1  ];
+}
+dummy0,  dummy1 {
+    expand: true;
+}
+mode-switcher {
+    expand: false;
+    orientation: vertical;
+    spacing: 0px;
+    border: 0px 0px 0px 0px;
+}
+
+button selected normal {
+    color: @tt;
+    border: 2px 0px 2px 2px;
+    background-color: #1f2335;
+    border-color: @bg2;
+}
+error-message {
+    expand: true;
+    background-color: red;
+    border-color: darkred;
+    border: 2px;
+    padding: 1em;
+}

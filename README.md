@@ -29,6 +29,15 @@
 
 </details>
 
+<details>
+<summary><b><code>Square Theme ScreenShot</code></b></summary>
+
+<h3>Violet Theme</h3>
+
+<img src="screenshot/Square-Violet.png" alt="Violet Theme">
+
+</details>
+
 <h2>Installation</h2>
 
 <ol>
