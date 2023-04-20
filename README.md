@@ -36,6 +36,10 @@
 
 <img src="screenshot/Square-Violet.png" alt="Violet Theme">
 
+<h3>Violet Theme</h3>
+
+<img src="screenshot/Square-Violet-V2.png" alt="Violet-V2 Theme">
+
 </details>
 
 <h2>Installation</h2>
