@@ -10,11 +10,11 @@
 
 <h3>Blue Theme</h3>
 
-<img src="screenshots/blue.png" alt="Blue Theme">
+<img src="screenshot/Rounded-Blue.png" alt="Blue Theme">
 
 <h3>Pink Theme</h3>
 
-<img src="screenshots/pink.png" alt="Pink Theme">
+<img src="screenshot/Rounded-Pink.png" alt="Pink Theme">
 
 <h2>Installation</h2>
 
