@@ -21,7 +21,7 @@
 <ol>
   <li>Clone the repository:</li>
 
-  <pre><code>git clone https://github.com/yourusername/rofi-themes.git</code></pre>
+  <pre><code>git clone https://github.com/praveen3164/Rofi-Color_Theme.git</code></pre>
   
   <li>If you don't have the directories needed for the install create them with</li>
 
