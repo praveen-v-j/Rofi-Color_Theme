@@ -4,7 +4,7 @@
   </head>
   <body>
     <h1>Rofi Themes</h1>
-    <p>This repository contains themes for the Rofi application launcher. Currently, there are two themes available: Blue and Pink. More themes may be added in the future.</p>
+    <p>This repository contains themes for the Rofi application launcher. Currently, there are three themes available. More themes may be added in the future.</p>
 
 <h2>Themes</h2>
 
@@ -15,6 +15,10 @@
 <h3>Pink Theme</h3>
 
 <img src="screenshot/Rounded-Pink.png" alt="Pink Theme">
+
+<h3>Green Theme</h3>
+
+<img src="screenshot/Rounded-Green.png" alt="Green Theme">
 
 <h2>Installation</h2>
 
