@@ -20,6 +20,10 @@
 
 <img src="screenshot/Rounded-Green.png" alt="Green Theme">
 
+<h3>Violet Theme</h3>
+
+<img src="screenshot/Rounded-Violet.png" alt="Violet Theme">
+
 <h2>Installation</h2>
 
 <ol>
