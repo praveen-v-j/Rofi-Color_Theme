@@ -1,0 +1,97 @@
+/**
+ * ROFI Color theme
+ * User: praveen3164
+ * Copyright: Praveen
+ */
+
+* {
+    bg: #2a9d8f;
+    hv: #83c5be;
+    txt: #fff;
+    ug: #443C68;
+    bd: #edf6f9;
+
+    background-color: @bg;
+    dark: @bg;
+    border: 0px;
+}
+
+window {
+    width: 520;
+    location: center;
+    ancor: center;
+    spacing: 0;
+    children: [mainbox];
+    orientation: horizontal;
+}
+
+mainbox {
+    children: [ inputbar, message, listview ];
+}
+
+message {
+    padding: 5px;
+}
+
+inputbar {
+    color: @txt;
+    padding: 11px;
+    border: 0px 0px 2px 0px;
+    border-color: @txt;
+}
+
+entry,prompt,case-indicator {
+    text-font: inherit;
+    text-color: inherit;
+}
+
+prompt {
+    margin: 0px 5px 0px 0px;
+}
+
+listview {
+    lines: 10;
+}
+
+entry {
+    placeholder: "";
+    cursor: text;
+}
+
+element {
+    padding: 8px;
+    vertical-align: 0.5;
+    color: @txt;
+    font: inherit;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element selected.normal {
+    background-color: @hv;
+    color: @txt;
+}
+
+element normal active {
+    background-color: @hv;
+}
+
+element normal urgent {
+    background-color: @txt;
+}
+
+element selected active {
+    background: @hv;
+    forground: @bg;
+}
+
+error-message {
+    expand: true;
+    background-color: @bg;
+    border-color: darkred;
+    border: none;
+    padding: 10px;
+}
